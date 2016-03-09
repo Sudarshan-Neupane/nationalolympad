@@ -1,0 +1,299 @@
+
+
+
+/* ==========================================================================
+   Banner Started
+   ========================================================================== */
+#banner {
+/*	margin-top: 88px;*/
+	height: 100%;
+	overflow: hidden;
+}
+/*#banner .slides img {padding:5px;background-color:#FFF;border:#CCC 1px solid; margin:0px;width:950px;} */ 
+#myCarousel .item {
+	background-color: #FFF;
+	/*border: #CCC 1px solid;*/
+}
+#myCarousel .item img {
+	width: 100%;
+}
+
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+}
+.carousel-indicators {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right-value: 0px;
+        margin-bottom: 0px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    list-style: none outside none;
+}
+#myCarousel ul, ol {
+    padding: 0px;
+    margin: 0px 0px 10px 25px;
+}
+.carousel {
+    line-height: 1;
+}
+.carousel-indicators li {
+    display: block;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    text-indent: -999px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 5px 5px 5px 5px;
+}
+#myCarousel li {
+    line-height: 20px;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#myCarousel .item {
+    background-color: rgb(255, 255, 255);
+/*    border: 1px solid rgb(204, 204, 204);*/
+}
+.carousel-inner > .active {
+    left: 0px;
+}
+.carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev {
+    display: block;
+}
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    transition: left 0.6s ease-in-out 0s;
+}
+
+#myCarousel .item img {
+    width: 100%;
+	border-radius:0 !important;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    line-height: 1;
+}
+#myCarousel img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0px none;
+	border-radius:none !important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 15px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.75);
+}
+.carousel-caption h4 {
+    margin: 0px 0px 5px;
+}
+.carousel-caption h4, .carousel-caption p {
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+#myCarousel h4 {
+    font-size: 17.5px;
+}
+.carousel-caption p {
+    margin-bottom: 0px;
+}
+.carousel-caption h4, .carousel-caption p {
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+#myCarousel p {
+    margin: 0px 0px 10px;
+}
+/* ==========================================================================
+   Banner Ended
+   ========================================================================== */
+
+
+/*body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	background-color: #fff
+}
+*/
+
+.carousel {
+	position: relative;
+	margin-bottom: 0px;
+	line-height: 1
+}
+.carousel-inner {
+	position: relative;
+	width: 100%;
+	overflow: hidden
+}
+.carousel-inner>.item {
+	position: relative;
+	display: none;
+	-webkit-transition: .6s ease-in-out left;
+	-moz-transition: .6s ease-in-out left;
+	-o-transition: .6s ease-in-out left;
+	transition: .6s ease-in-out left
+}
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	display: block;
+	line-height: 1
+	border-radius:0 !important;
+}
+.carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev {
+	display: block
+}
+.carousel-inner>.active {
+	left: 0
+}
+.carousel-inner>.next, .carousel-inner>.prev {
+	position: absolute;
+	top: 0;
+	width: 100%
+}
+.carousel-inner>.next {
+	left: 100%
+}
+.carousel-inner>.prev {
+	left: -100%
+}
+.carousel-inner>.next.left, .carousel-inner>.prev.right {
+	left: 0
+}
+.carousel-inner>.active.left {
+	left: -100%
+}
+.carousel-inner>.active.right {
+	left: 100%
+}
+.carousel-control {
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 30px;
+	color: #fff;
+	text-align: center;
+	background: #222;
+	border: 3px solid #fff;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	opacity: .5;
+	filter: alpha(opacity=50)
+}
+.carousel-control.right {
+	right: 15px;
+	left: auto
+}
+.carousel-control:hover, .carousel-control:focus {
+	color: #fff;
+	text-decoration: none;
+	opacity: .9;
+	filter: alpha(opacity=90)
+}
+.carousel-indicators {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 5;
+	margin: 0;
+	list-style: none
+}
+.carousel-indicators li {
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin-left: 5px;
+	text-indent: -999px;
+	background-color: #ccc;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 5px
+}
+.carousel-indicators .active {
+	background-color: #fff
+}
+.carousel-caption {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	background: rgba(0,0,0,0.75)
+}
+.carousel-caption h4, .carousel-caption p {
+	line-height: 20px;
+	color: #fff
+}
+.carousel-caption h4 {
+	margin: 0 0 5px
+}
+.carousel-caption p {
+	margin-bottom: 0
+}
+.hero-unit {
+	padding: 60px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	color: inherit;
+	background-color: #eee;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px
+}
+.hero-unit h1 {
+	margin-bottom: 0;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px;
+	color: inherit
+}
+.hero-unit li {
+	line-height: 30px
+}
+.pull-right {
+	float: right
+}
+.pull-left {
+	float: left
+}
+.hide {
+	display: none
+}
+.show {
+	display: block
+}
+.invisible {
+	visibility: hidden
+}
+.affix {
+	position: fixed
+}

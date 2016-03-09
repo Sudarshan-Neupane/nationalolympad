@@ -1,0 +1,1 @@
+<img src="<?php echo base_url();?>images/winter.jpg" alt="dell logo" height="100" width="100"/>
